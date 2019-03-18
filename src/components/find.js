@@ -7,7 +7,7 @@ export default class Find extends Component {
       <React.Fragment>
         <Header>
           <div>←</div>
-          <h1>アウトドアが好き</h1>
+          <HeaderTitle>アウトドアが好き</HeaderTitle>
           <div>
             <span>■</span>
             <p>255</p>
@@ -39,10 +39,14 @@ const Header = styled.div`
   }
 `;
 
+const HeaderTitle = styled.h1`
+  flex: 1;
+  font-size: 16px;
+`;
+
 const Card = styled.div`
   margin: 0 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 `;
 
-// const 
